@@ -5,6 +5,8 @@
  */
 package javaapplicationmysqlcomstatement;
 
+import apresentacao.JFrameAluno;
+
 /**
  *
  * @author guilherme
@@ -16,6 +18,10 @@ public class JavaApplicationMySQLComStatement {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        JFrameAluno jFrameAluno = new JFrameAluno(); //Cria o objeto Janela
+        jFrameAluno.setLocationRelativeTo(null); //Coloca a janela no centro da tela
+        jFrameAluno.setVisible(true); // Mostra a janela
     }
     
 }
